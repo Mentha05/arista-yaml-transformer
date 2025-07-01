@@ -2,7 +2,8 @@
 network_ports:
   - switches:
       - s1-leaf1
-    switch_ports: Ethernet4
+    switch_ports:
+      - Ethernet4
     enabled: true
     description: test eth4 trunk port
     mtu:
@@ -10,7 +11,8 @@ network_ports:
     profile: int_trunk_host
   - switches:
       - s1-leaf1
-    switch_ports: Ethernet6
+    switch_ports:
+      - Ethernet6
     enabled: true
     mtu: 9000
     profile: int_routed_host

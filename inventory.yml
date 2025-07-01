@@ -27,11 +27,11 @@ all:
                   type: super-spine
                   ansible_host: 192.168.0.203
 
-        #########################################
-        # Comment the field that get data value from source path/file for proto type translation script
-        # Mentha Cheng will replace the below script
-        # Begin here
-        #########################################
+#########################################
+# Comment the field that get data value from source path/file for proto type translation script
+# Mentha Cheng will replace the below script
+# Begin here
+#########################################
 
         ATD_DC1_FABRIC:
           children:
@@ -83,7 +83,7 @@ all:
                   ansible_host: 192.168.0.21
             ATD_DC2_LEAFS:
               children:
-                pod1:
+                pod21:
                   hosts:
                     s2-leaf1:
                       type: l3leaf
@@ -91,7 +91,7 @@ all:
                     s2-leaf2:
                       type: l3leaf
                       ansible_host: 192.168.0.123
-                pod2:
+                pod22:
                   hosts:
                     s2-leaf3:
                       type: l3leaf

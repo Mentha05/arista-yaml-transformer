@@ -37,25 +37,25 @@ l3leaf:
     spanning_tree_mode: mstp
     spanning_tree_priority: 16384
   node_groups:
-    - group: pod1
+    - group: pod21
       bgp_as: 65201
       nodes:
-        - name: 192.168.0.122
+        - name: s2-leaf1
           id: 21
           mgmt_ip: 192.168.0.122/24
           uplink_switch_interfaces: [Ethernet2, Ethernet2]
-        - name: 192.168.0.123
+        - name: s2-leaf2
           id: 22
           mgmt_ip: 192.168.0.123/24
           uplink_switch_interfaces: [Ethernet3, Ethernet3]
-    - group: pod2
+    - group: pod22
       bgp_as: 65202
       nodes:
-        - name: 192.168.0.124
+        - name: s2-leaf3
           id: 23
           mgmt_ip: 192.168.0.124/24
           uplink_switch_interfaces: [Ethernet4, Ethernet4]
-        - name: 192.168.0.125
+        - name: s2-leaf4
           id: 24
           mgmt_ip: 192.168.0.125/24
           uplink_switch_interfaces: [Ethernet5, Ethernet5]

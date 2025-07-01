@@ -40,22 +40,22 @@ l3leaf:
     - group: pod1
       bgp_as: 65101
       nodes:
-        - name: 192.168.0.12
+        - name: s1-leaf1
           id: 11
           mgmt_ip: 192.168.0.12/24
           uplink_switch_interfaces: [Ethernet2, Ethernet2]
-        - name: 192.168.0.13
+        - name: s1-leaf2
           id: 12
           mgmt_ip: 192.168.0.13/24
           uplink_switch_interfaces: [Ethernet3, Ethernet3]
     - group: pod2
       bgp_as: 65102
       nodes:
-        - name: 192.168.0.14
+        - name: s1-leaf3
           id: 13
           mgmt_ip: 192.168.0.14/24
           uplink_switch_interfaces: [Ethernet4, Ethernet4]
-        - name: 192.168.0.15
+        - name: s1-leaf4
           id: 14
           mgmt_ip: 192.168.0.15/24
           uplink_switch_interfaces: [Ethernet5, Ethernet5]
