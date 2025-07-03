@@ -4,7 +4,7 @@ servers:
     adapters:
       - endpoint_ports: [NIC1, NIC2]
         switch_ports:
-          - Etherent4
+          - Ethernet4
           - Ethernet4
         switches:
           - s1-leaf3
@@ -21,7 +21,7 @@ servers:
     adapters:
       - endpoint_ports: [NIC1, NIC2]
         switch_ports:
-          - Etherent4
+          - Ethernet4
           - Ethernet4
         switches:
           - s2-leaf3
